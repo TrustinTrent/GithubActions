@@ -15,7 +15,7 @@ jobs:
       - name: Deploy file
         uses: SamKirkland/FTP-Deploy-Action@3.1.1
         env:
-          FTP_SERVER: http://shivaprogramming.com
+          FTP_SERVER: home562576484.1and1-data.host
           FTP_USERNAME: ${{secrets.ftp_username}}
           FTP_PASSWORD: ${{secrets.ftp_password}}
           local-dir: '.'
